@@ -4,10 +4,11 @@
  </paths>
  <sounddirs/>
  <dictionaryOrder id="0" name="">
-  <dictionary name="English-Hebrew Babylon">baf9057f8b27b9758a52140f29bf3a42</dictionary>
-  <dictionary name="English-Hebrew Morfix">93e5aae1eb2c8136834c036041e6370f</dictionary>
-  <dictionary name="Hebrew-English Babylon">34ac4bb0bbb95c2cb5c5a661ccd9fd83</dictionary>
-  <dictionary name="Wiktionary (en)">af3d47b06034dab83736ee4f415858d7</dictionary>
+  <dictionary name="Babylon Hebrew-English (he-en)">b1e4d8cc1e0a63382fbf1999cac90bc2</dictionary>
+  <dictionary name="Babylon Hebrew-English (he-en)">ea2fe1ee87c9bd003e6b7a0f4ba7f039</dictionary>
+  <dictionary name="Babylon_Hebrew_English">46cf5978a3a516de4ad0e4fc81db7480</dictionary>
+  <dictionary name="Babylon Hebrew-English">a637521e357e0ddbecf2fc03a42ec5d2</dictionary>
+  <dictionary name="Babylon Hebrew-English">d8ced6bae02385319de8a394d9656386</dictionary>
   <mutedDictionaries/>
  </dictionaryOrder>
  <inactiveDictionaries id="0" name="">
@@ -77,8 +78,9 @@
   <program commandLine="man -a --html=/bin/cat %GDWORD%" enabled="0" icon="" id="4f898f7582596cea518c6b0bfdceb8b3" name="Manpages" type="2"/>
  </programs>
  <mutedDictionaries>
-  <mutedDictionary>18436bf4aa47fc79f38b2b27822508a1</mutedDictionary>
   <mutedDictionary>ea67753a0c3a53b0d7be5e1568d18a37</mutedDictionary>
+  <mutedDictionary>af3d47b06034dab83736ee4f415858d7</mutedDictionary>
+  <mutedDictionary>18436bf4aa47fc79f38b2b27822508a1</mutedDictionary>
  </mutedDictionaries>
  <popupMutedDictionaries/>
  <preferences>
