@@ -102,7 +102,7 @@
   <autoScrollToTargetArticle>1</autoScrollToTargetArticle>
   <escKeyHidesMainWindow>0</escKeyHidesMainWindow>
   <darkMode>0</darkMode>
-  <darkReaderMode>0</darkReaderMode>
+  <darkReaderMode>1</darkReaderMode>
   <zoomFactor>1</zoomFactor>
   <helpZoomFactor>1</helpZoomFactor>
   <enableMainWindowHotkey>1</enableMainWindowHotkey>
