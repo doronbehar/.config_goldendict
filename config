@@ -29,7 +29,6 @@
   </chinese>
   <romaji>
    <enable>0</enable>
-   <enableHepburn>1</enableHepburn>
    <enableHiragana>1</enableHiragana>
    <enableKatakana>1</enableKatakana>
   </romaji>
@@ -64,10 +63,10 @@
   <mediawiki enabled="0" icon="" id="b68b9fb71b5a8c766cc7a5ea8237fc6b" lang="zh-hans" name="Simplified Chinese Wiktionary" url="https://zh.wiktionary.org/w"/>
  </mediawikis>
  <websites>
-  <website enabled="0" icon="" id="b88cb2898e634c6638df618528284c2d" inside_iframe="1" name="Google En-En (Oxford)" url="https://www.google.com/search?q=define:%GDWORD%&amp;hl=en"/>
-  <website enabled="0" icon="" id="f376365a0de651fd7505e7e5e683aa45" inside_iframe="1" name="Urban Dictionary" url="https://www.urbandictionary.com/define.php?term=%GDWORD%"/>
-  <website enabled="0" icon="" id="324ca0306187df7511b26d3847f4b07c" inside_iframe="1" name="Multitran (En-Ru)" url="https://www.multitran.com/m.exe?s=%GDWORD%&amp;l1=1&amp;l2=2"/>
-  <website enabled="0" icon="" id="379a0ce02a34747d642cb0d7de1b2882" inside_iframe="1" name="Merriam-Webster (En)" url="https://www.merriam-webster.com/dictionary/%GDWORD%"/>
+  <website enabled="0" icon="" id="b88cb2898e634c6638df618528284c2d" name="Google En-En (Oxford)" script="" url="https://www.google.com/search?q=define:%GDWORD%&amp;hl=en"/>
+  <website enabled="0" icon="" id="f376365a0de651fd7505e7e5e683aa45" name="Urban Dictionary" script="" url="https://www.urbandictionary.com/define.php?term=%GDWORD%"/>
+  <website enabled="0" icon="" id="324ca0306187df7511b26d3847f4b07c" name="Multitran (En-Ru)" script="" url="https://www.multitran.com/m.exe?s=%GDWORD%&amp;l1=1&amp;l2=2"/>
+  <website enabled="0" icon="" id="379a0ce02a34747d642cb0d7de1b2882" name="Merriam-Webster (En)" script="" url="https://www.merriam-webster.com/dictionary/%GDWORD%"/>
  </websites>
  <dictservers>
   <server databases="wn" enabled="0" icon="" id="6eb6f7a1df225e1cfdcd4cf8e9e4771b" name="dict.org" strategies="" url="dict://dict.org"/>
@@ -83,10 +82,12 @@
   <mutedDictionary>18436bf4aa47fc79f38b2b27822508a1</mutedDictionary>
  </mutedDictionaries>
  <popupMutedDictionaries/>
+ <dictionariesToReindex/>
  <preferences>
   <interfaceLanguage></interfaceLanguage>
   <interfaceFont>DejaVu Sans</interfaceFont>
-  <interfaceFontSize>12</interfaceFontSize>
+  <interfaceFontSize_0>12</interfaceFontSize_0>
+  <enableInterfaceFont>0</enableInterfaceFont>
   <customFonts monospace="DejaVu Sans Mono" sans-serif="DejaVu Sans" serif="DejaVu Serif" standard="DejaVu Serif"/>
   <displayStyle></displayStyle>
   <interfaceStyle>Default</interfaceStyle>
@@ -95,6 +96,7 @@
   <hideSingleTab>0</hideSingleTab>
   <mruTabOrder>0</mruTabOrder>
   <hideMenubar>0</hideMenubar>
+  <panelsLocked>0</panelsLocked>
   <enableTrayIcon>0</enableTrayIcon>
   <startToTray>0</startToTray>
   <closeToTray>0</closeToTray>
@@ -130,7 +132,6 @@
   <audioPlaybackProgram></audioPlaybackProgram>
   <alwaysOnTop>0</alwaysOnTop>
   <searchInDock>0</searchInDock>
-  <historyStoreInterval>15</historyStoreInterval>
   <favoritesStoreInterval>15</favoritesStoreInterval>
   <confirmFavoritesDeletion>1</confirmFavoritesDeletion>
   <proxyserver enabled="0" useSystemProxy="0">
@@ -151,11 +152,10 @@
   </ankiConnectServer>
   <checkForNewReleases>1</checkForNewReleases>
   <disallowContentFromOtherSites>0</disallowContentFromOtherSites>
-  <hideGoldenDictHeader>0</hideGoldenDictHeader>
-  <maxNetworkCacheSize>50</maxNetworkCacheSize>
-  <clearNetworkCacheOnExit>1</clearNetworkCacheOnExit>
   <removeInvalidIndexOnExit>0</removeInvalidIndexOnExit>
   <enableApplicationLog>0</enableApplicationLog>
+  <openWebsiteInNewTab>0</openWebsiteInNewTab>
+  <suppressWebDialogs>0</suppressWebDialogs>
   <maxStringsInHistory>500</maxStringsInHistory>
   <storeHistory>1</storeHistory>
   <alwaysExpandOptionalParts>1</alwaysExpandOptionalParts>
@@ -183,8 +183,8 @@
  <popupWindowGeometry2>AdnQywADAAAAAAW7AAACgwAAB34AAAQSAAAFuwAAAoMAAAd+AAAEEgAAAAAAAAAAB4AAAAW7AAACgwAAB34AAAQS</popupWindowGeometry2>
  <pinPopupWindow>0</pinPopupWindow>
  <popupWindowAlwaysOnTop>0</popupWindowAlwaysOnTop>
- <mainWindowState>AAAA/wAAAAD9AAAAAgAAAAAAAABjAAADafwCAAAAAfsAAAAUAHMAZQBhAHIAYwBoAFAAYQBuAGUAAAAAZgAAA2kAAACOAP///wAAAAEAAAHfAAADafwCAAAAA/sAAAASAGQAaQBjAHQAcwBQAGEAbgBlAQAAAGYAAAEgAAAAZQD////7AAAAGgBmAGEAdgBvAHIAaQB0AGUAcwBQAGEAbgBlAQAAAYwAAAEdAAAAZQD////7AAAAFgBoAGkAcwB0AG8AcgB5AFAAYQBuAGUBAAACrwAAASAAAABlAP///wAABZsAAANpAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAUAG4AYQB2AFQAbwBvAGwAYgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAGgBkAGkAYwB0AGkAbwBuAGEAcgB5AEIAYQByAQAAAAD/////AAAAAAAAAAA=</mainWindowState>
- <mainWindowGeometry>AdnQywADAAAAAAAAAAAAIAAAB38AAAQTAAAAAQAAAEUAAAd+AAAEEwAAAAACAAAAB4AAAAAAAAAARQAAB38AAAQT</mainWindowGeometry>
+ <mainWindowState>AAAA/wAAAAD9AAAAAgAAAAAAAABjAAADafwCAAAAAfsAAAAUAHMAZQBhAHIAYwBoAFAAYQBuAGUAAAAAZgAAA2kAAACOAP///wAAAAEAAAEfAAADaPwCAAAAA/sAAAASAGQAaQBjAHQAcwBQAGEAbgBlAQAAAGYAAAEmAAAAZQD////7AAAAGgBmAGEAdgBvAHIAaQB0AGUAcwBQAGEAbgBlAQAAAZIAAAEQAAAAZQD////7AAAAFgBoAGkAcwB0AG8AcgB5AFAAYQBuAGUBAAACqAAAASYAAABlAP///wAABlsAAANoAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAEAAAAUAG4AYQB2AFQAbwBvAGwAYgBhAHIBAAAAAP////8AAAAAAAAAAAAAAAIAAAABAAAAGgBkAGkAYwB0AGkAbwBuAGEAcgB5AEIAYQByAQAAAAD/////AAAAAAAAAAA=</mainWindowState>
+ <mainWindowGeometry>AdnQywADAAAAAAO/AAAAQgAACz4AAAQ1AAADvwAAAGgAAAd+AAAENgAAAAACAAAAB4AAAAO/AAAAaAAACz4AAAQ1</mainWindowGeometry>
  <dictInfoGeometry>AdnQywADAAAAAAHoAAABQAAABZgAAAL0AAAB6AAAAWUAAAWYAAAC9AAAAAAAAAAAB4AAAAHoAAABZQAABZgAAAL0</dictInfoGeometry>
  <inspectorGeometry></inspectorGeometry>
  <dictionariesDialogGeometry>AdnQywADAAAAAAHeAAAA+AAABaIAAAM8AAAB3gAAAR0AAAWiAAADPAAAAAAAAAAAB4AAAAHeAAABHQAABaIAAAM8</dictionariesDialogGeometry>
